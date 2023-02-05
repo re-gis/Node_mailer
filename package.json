@@ -1,0 +1,19 @@
+{
+  "name": "node_mailer",
+  "version": "1.0.0",
+  "description": "Sending email using Nodemailer Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Regis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
